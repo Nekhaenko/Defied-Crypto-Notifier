@@ -1,0 +1,3 @@
+{"text_model": "models/vectTF.m",
+"lr_model": "models/TF_LR.m"
+}

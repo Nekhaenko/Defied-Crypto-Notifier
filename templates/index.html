@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction</title>
+</head>
+
+<body>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+    
+    <form action="" method="post">
+        <p>
+            <label for="text">Input text</label>
+	        <input type="text" name="text" required size="100">
+        </p>
+	<p>
+	    <input type="submit">
+	</p>
+    </form>
+    
+</body>
+</html>
